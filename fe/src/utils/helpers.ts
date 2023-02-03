@@ -2,7 +2,6 @@
 import { Metaplex } from '@metaplex-foundation/js';
 import { Connection, PublicKey } from '@solana/web3.js';
 import axios from 'axios';
-import fs from 'fs';
 const connection = new Connection(process.env.NEXT_PUBLIC_RPC!, 'confirmed')
 const metaplex = new Metaplex(connection);
 
